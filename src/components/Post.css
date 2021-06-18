@@ -1,0 +1,85 @@
+.post {
+  display: flex;
+  flex: 0.4;
+  align-items: center;
+  padding-bottom: 1px;
+  overflow-y: scroll;
+  border-bottom: 0.5px solid var(--twitter-background);
+  border-top: 0.5px solid var(--twitter-background);
+  border-right: 1px solid var(--twitter-background);
+  border-left: 1px solid var(--twitter-background);
+  /*border-color: rgb(47, 51, 54);
+
+  border-top: 1px rgb(47, 51, 54);
+
+  border-right: 1px rgb(47, 51, 54);
+  border-left: 1px rgb(47, 51, 54);*/
+}
+.usercomment {
+  display: flex;
+  flex: 0.4;
+  align-items: center;
+  padding-bottom: 1px;
+  overflow-y: scroll;
+}
+.usercomment::-webkit-scrollbar {
+  display: none;
+}
+.post::-webkit-scrollbar {
+  display: none;
+}
+.post__body {
+  flex: 1;
+  padding: 8px;
+}
+
+.post__body > img {
+  border-radius: 20px;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+  position: sticky;
+}
+
+.post__headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  position: sticky;
+}
+
+.post__badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+  position: sticky;
+}
+
+.post__avatar {
+  padding: 20px;
+}
+.heart {
+  font-size: large;
+  color: gray;
+}
+.liked {
+  display: flex;
+  flex-direction: column;
+}
+
+.like {
+  display: flex;
+  flex: 0.5;
+}

@@ -1,0 +1,27 @@
+h2 {
+  padding: 0px;
+  margin-right: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cyan;
+  font-weight: 400;
+}
+.text {
+  color: darkgrey;
+  margin-right: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 20px;
+}
+.div11 {
+  margin-top: 40px;
+  margin-left: 500px;
+
+  width: 30%;
+  max-height: fit-content;
+}
+.div1 {
+  margin-top: 50px;
+  margin-right: -600px;
+}
+.profile {
+  display: flex;
+}
